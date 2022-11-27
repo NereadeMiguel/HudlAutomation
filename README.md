@@ -36,19 +36,36 @@ Seting up virtual enviroment: (You must have python installed in advance)
 
 ``` python3 -m venv ./pyenvname```
 
+Windows (with python path configured)
+``` python -m venv c:\path\pyenvname ```
+
 Activate virutalenv:
 
 ``` source pyenvname/bin/activate```
 
+Windows:
+
+``` <venv>\Scripts\activate.bat ```
+
 ## Installation
 Run ```make install``` file
+
+For windows probably it needs to run the comand inside make intall directly:
+
+```pip install -r requirements.txt```
 
 ## Run tests
 Run tests in the default browser.
 ``` make run ```
 
+windows:
+``` robot  --variable ENVIRONMENT:prod  --variable BROWSER_MODE:real --variable BROWSER:chrome  ./e2e  ```
+
 Run tests in headless mode.
 ``` make run-headless ``` 
+
+windows:
+``` robot  --variable ENVIRONMENT:prod  --variable BROWSER_MODE:headless --variable BROWSER:chrome  ./e2e ```
 
 ## Clean code
 There are two robot tools to perform clean and organized code, they are RobotTydy and Robocop. Used before committing the code on this project.

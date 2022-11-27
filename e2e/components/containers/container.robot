@@ -1,0 +1,2 @@
+*** Settings ***
+Resource    ../component.robot

@@ -1,0 +1,12 @@
+{
+  "prod": {
+    "url": "https://www.hudl.com"
+  },
+  "qa": {
+    "url": "..."
+  },
+  "dev": {
+    "url": "..."
+  }
+
+}

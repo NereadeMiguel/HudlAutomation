@@ -1,0 +1,14 @@
+{
+  "TestUser": {
+    "email": "nereademiguel@gmail.com",
+    "password": "SunnyDay25"
+  },
+  "TestAdmin": {
+    "email": "...",
+    "password": "..."
+  },
+  "TestSuperAdmin": {
+    "email": "...",
+    "password": "..."
+  }
+}

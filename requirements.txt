@@ -1,0 +1,4 @@
+robotframework==6.0.1
+robotframework-seleniumlibrary==6.0.0
+robotframework-tidy==3.3.2
+robotframework-robocop==2.6.0

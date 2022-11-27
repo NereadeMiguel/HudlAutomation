@@ -5,6 +5,7 @@
 *** Settings ***
 Library             String
 Resource            login_keywords.robot
+Resource            ../common/browser_keywords.robot
 
 Test Setup          Open browser
 Test Teardown       Close browser

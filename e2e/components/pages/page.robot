@@ -9,4 +9,4 @@ location_contains
 
 go_to_url
     [Arguments]    ${url}
-    Go to    ${url}
+    SeleniumLibrary.go_to    ${url}
